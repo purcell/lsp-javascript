@@ -24,6 +24,7 @@ suitable paths, and add
 (require 'lsp-javascript)
 
 (add-hook 'js-mode-hook #'lsp-mode)
+(add-hook 'typescript-mode-hook #'lsp-mode) ;; for typescript support
 ```
 to your .emacs.
 
