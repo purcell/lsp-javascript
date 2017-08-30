@@ -23,7 +23,7 @@ suitable paths, and add
 (add-to-list 'load-path "<path to lsp-javascript>")
 (require 'lsp-javascript)
 
-(global-lsp-mode t)
+(add-hook 'js-mode-hook #'lsp-mode)
 ```
 to your .emacs.
 
