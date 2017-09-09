@@ -37,3 +37,4 @@
  '("javascript-typescript-stdio"))
 
 (provide 'lsp-javascript)
+;;; lsp-javascript.el ends here
