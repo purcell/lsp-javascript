@@ -8,6 +8,8 @@
 
 (require 'lsp-mode)
 
+;;; Code:
+
 (defconst lsp-javascript--get-root (lsp-make-traverser #'(lambda (dir)
 							   (directory-files dir nil "package.json"))))
 
