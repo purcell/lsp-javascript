@@ -27,7 +27,6 @@ Install the package `lsp-javascript`
 (add-hook 'js3-mode-hook #'lsp-mode) ;; for js3-mode support
 (add-hook 'rjsx-mode #'lsp-mode) ;; for rjsx-mode support
 ```
-to your .emacs.
 
 You also need
 [javascript-typescript-langserver](https://github.com/sourcegraph/javascript-typescript-langserver)
