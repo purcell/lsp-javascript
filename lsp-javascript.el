@@ -8,10 +8,9 @@
 
 (require 'lsp-mode)
 
-(setq
- lsp-javascript--get-root
- (lsp-make-traverser #'(lambda (dir)
-												 (directory-files dir nil "package.json"))))
+(defconst lsp-javascript--get-root (lsp-make-traverser #'(lambda (dir)
+							   (directory-files dir nil "package.json"))))
+
 
 (lsp-define-stdio-client
  'js-mode "JavaScript" 'stdio
