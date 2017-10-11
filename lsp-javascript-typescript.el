@@ -1,4 +1,4 @@
-;;; lsp-js-ts.el --- Javascript/Typescript support for lsp-mode  -*- lexical-binding: t; -*-
+;;; lsp-javascript-typescript.el --- Javascript/Typescript support for lsp-mode  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2017 George Pittarelli <g@gjp.cc>
 
@@ -42,5 +42,5 @@
 			   "JavaScript Language Server"
 			   '("javascript-typescript-stdio")))
 
-(provide 'lsp-javascript)
-;;; lsp-javascript.el ends here
+(provide 'lsp-javascript-typescript)
+;;; lsp-javascript-typescript.el ends here
